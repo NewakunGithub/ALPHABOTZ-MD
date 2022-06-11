@@ -3,13 +3,13 @@ exports.wait = () => {
 }
 
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done. Ok Onichan~`
 }
 
 exports.err = () => {
-    return `‼️Fitur Sedang Error‼️
+    return `‼️Fitur Sedang Error Harap tidak di ketik/digunakan‼️
 
-⏳Sedang melapor bug fitur ke owner-sama⏳`
+⏳Sedang melapor bug fitur ke owner-aku⏳`
 }
 
 exports.wrongFormat = (prefix) => {
@@ -25,11 +25,11 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `⚠️ Command ini khusus Owner-sama! ⚠️`
+    return `⚠️ Command ini khusus Owner-Onichan! ⚠️`
 }
 
 exports.doneOwner = () => {
-    return `✔  ️Sudah selesai, Owner-sama~`
+    return `✔  ️Sudah selesai, Owner-Onichan~`
 }
 
 exports.groupOnly = () => {
@@ -59,7 +59,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan bot sebagai admin dahulu Onichan~! 🙏`
 }
 
 exports.received = (pushname) => {
